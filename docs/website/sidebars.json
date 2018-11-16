@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Introduccion": ["doc1"],
+    "Sesiones": ["doc2", "doc8"],
+    "Departamento": ["doc3"]
+  },
+  "docs-other": {
+    "FAQ y situaciones frecuentes": ["doc4", "doc5", "doc9"]
+  }
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Inicio de sesion</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css">
+    <link rel="shortcut icon" href="sonriente.png" type="image/png">
+</head>
+
+<body class="jumbotron">
+
+    <div class="container-fluid text-center col-lg-6">
+
+        <img class="mb-4" src="logo.jpeg" alt="" width="72" height="72" style="background-color: white; border-radius: 10%; padding: 10px;">
+        <h1 class="h3 mb-3 font-weight-normal">Iniciar sesion</h1>
+
+        <form action="validar.php" method="POST">
+
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="text" name="usuario" id="inputEmail" class="form-control mb-2" placeholder="Usuario" required autofocus>
+
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" name="contra" id="inputPassword" class="form-control mb-2" placeholder="Contraseña" required>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="ingresar"> Ingresar</button>
+
+        </form>
+        <small class="float-right mt-4">
+            <a name="" id="" href="contraRegistro.html" role="button">Nuevo por aqui? registrarse</a>
+        </small>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+
+
+
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.14/js/jquery.tablesorter.min.js">
+        </script>
+        <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js">
+
+        </script>
+        <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js">
+
+        </script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+
+        <!-- Latest compiled and minified Locales -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/locale/bootstrap-table-zh-CN.min.js"></script>
+
+        <script>
+//            $(document).ready(function () {
+
+//         $('button#ingresar').click(function () {
+//             let usuario = document.getElementById('inputEmail').value;
+//             let contrasenia = document.getElementById('inputPassword').value;
+//             alert(usuario + contrasenia);
+
+//             $.ajax({
+//             url:'validar.php',
+//             type:'POST',
+//             data:'usuario='+usuario+'&contra='+contrasenia,
+// success:function (text) {
+
+//    document.body.innerHTML= text;
+// }
+//             });// fin de ajax
+
+//         });
+//             });
+        </script>
+
+</body>
+
+</html>
